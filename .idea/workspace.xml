@@ -2,45 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f83dd890-089f-4453-813b-d142737ef922" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/content/0-sentence.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/1-sentence.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/2-sentence.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/3-sentence.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/4-sentence.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/5-sentence.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/6-sentence.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/youtube-thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/after-effects-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/output.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robots/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/1/newsroom.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/0-original.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/1-original.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/2-original.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/3-original.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/4-original.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/5-original.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/6-original.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/0-sentence.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/1-sentence.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/2-sentence.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/3-sentence.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/4-sentence.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/5-sentence.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/6-sentence.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/youtube-thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/youtube-thumbnail.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/robots/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/robots/image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robots/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/robots/state.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>robot</find>
-      <find>watson</find>
-      <find>break</find>
-      <find>console.log</find>
-      <find>nlu</find>
-      <find>fetchKeywordsOfAllSentences</find>
-      <find>017990608938806761967:grdash62j1o</find>
-      <find>exports.convert.path</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,7 +50,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="ts.external.directory.path" value="D:\Programas\IntelliJ IDEA 2018.3.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -94,6 +83,11 @@
       <workItem from="1570234398515" duration="6133000" />
       <workItem from="1570382398496" duration="7746000" />
       <workItem from="1570757772180" duration="5795000" />
+      <workItem from="1570927566328" duration="6825000" />
+      <workItem from="1570935648242" duration="1301000" />
+      <workItem from="1570938420008" duration="5922000" />
+      <workItem from="1570982304165" duration="3964000" />
+      <workItem from="1570987118335" duration="1818000" />
     </task>
     <servers />
   </component>
@@ -105,7 +99,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -131,6 +127,16 @@
           <url>file://$PROJECT_DIR$/robots/text.js</url>
           <line>35</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/robots/image.js</url>
+          <line>8</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/robots/video.js</url>
+          <line>21</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
