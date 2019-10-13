@@ -2,26 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f83dd890-089f-4453-813b-d142737ef922" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/content/after-effects-script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/output.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robots/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/1/newsroom.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/credentials/google-youtube.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robots/youtube.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/0-sentence.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/1-sentence.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/2-sentence.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/3-sentence.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/4-sentence.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/5-sentence.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/6-sentence.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/youtube-thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/youtube-thumbnail.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robots/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/robots/image.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robots/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/robots/state.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +74,7 @@
       <workItem from="1570935648242" duration="1301000" />
       <workItem from="1570938420008" duration="5922000" />
       <workItem from="1570982304165" duration="3964000" />
-      <workItem from="1570987118335" duration="1818000" />
+      <workItem from="1570987118335" duration="12775000" />
     </task>
     <servers />
   </component>
@@ -137,6 +124,12 @@
           <url>file://$PROJECT_DIR$/robots/video.js</url>
           <line>21</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/robots/youtube.js</url>
+          <line>68</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
