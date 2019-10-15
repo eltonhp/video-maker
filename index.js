@@ -9,15 +9,10 @@ const robots = {
     youtube: require('./robots/youtube')
 }
 async function start() {
-    robots.input()
-    await robots.text()
-    await robots.image()
-    await robots.video();
-    await robots.youtube();
-   const content = robots.state.load();
-  // console.log(JSON.stringify(content, null, 4))
-
-
-    console.dir(content, {depth: null})
+   robots.input()
+   await robots.text()
+   await robots.image()
+   await robots.video();
+   await robots.youtube();
 }
 start()
