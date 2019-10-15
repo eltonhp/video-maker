@@ -9,7 +9,7 @@ const OAuth2 = google.auth.OAuth2
 const fs = require('fs')
 
     async function robot() {
-      console.log('youtube.............')
+        console.log('> [youtube-robot] Starting...')
         const content = state.load();
         await authenticateWithOauth()
         const videoInformation = await uploadVideo(content)
@@ -30,7 +30,7 @@ const fs = require('fs')
                     const app = express()
 
                     const server = app.listen(port, () => {
-                        console.log(`Listening on http://localhost:${port}`)
+                        console.log(`> [youtube-robot] Listening on http://localhost:${port}`)
                         resolve({
                             app,
                             server
@@ -53,14 +53,14 @@ const fs = require('fs')
                     scope: 'https://www.googleapis.com/auth/youtube'
                 })
 
-                console.log(`> Please give you consent: ${consentUrl}`)
+                console.log(`> [youtube-robot] Please give your consent: ${consentUrl}`)
             }
             async function waitForGoogleCallBack(webServer) {
               return new Promise((resolve, reject) => {
                   console.log('> waiting for user consent ...')
                   webServer.app.get('/oauth2callback', (req, res) => {
                       const authCode = req.query.code
-                      console.log(` Consent given: ${authCode}`)
+                      console.log(`> [youtube-robot] Consent given: ${authCode}`)
                       res.send('<h1>Thank you!</h1><p>Now close this tab.</p>')
                       resolve(authCode)
                   })
@@ -72,8 +72,9 @@ const fs = require('fs')
                         if (error) {
                             return reject(error)
                         }
-                        console.log('> Acess tokens received:')
-                        console.log(tokens)
+                        console.log('> [youtube-robot] Access tokens received!')
+
+                       // console.log(tokens)
 
                         OAuthClient.setCredentials(tokens)
                         resolve()
