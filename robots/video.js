@@ -14,6 +14,7 @@ let ffmpeg = require("fluent-ffmpeg");
 //ffmpeg.setFfprobePath(path.join(__dirname, '../../../../Programas/ffmpeg/bin/ffprobe.exe'));
 console.log('teste --->', path.join(__dirname))
 async  function  robot() {
+    console.log('> [video-robot] Starting...')
     const content = state.load();
      await convertAllImages(content)
      await createAllSentenceImage(content)
@@ -25,7 +26,7 @@ async  function  robot() {
 
     async function renderVideoWithNode(content) {
         return new Promise((resolve, reject) => {
-            console.log("> Renderizando vídeo com node.");
+            console.log("> [render-video] Render with video con node.");
 
             let images = [];
 
@@ -132,7 +133,7 @@ async  function  robot() {
                         console.log('error !!!! '+error+ ' #')
                         return reject(error)
                     }
-                    console.log(`> Image converted: ${inputFire}`)
+                    console.log(`> [video-robot] Image converted: ${outputFile}`)
                     resolve()
                 })
         })
@@ -190,7 +191,7 @@ async  function  robot() {
                         return reject(error)
                     }
 
-                    console.log(`> sentence created: ${outputFile}`)
+                    console.log(`> [video-robot] Sentence created: ${outputFile}`)
                     resolve()
                 })
         })
@@ -205,7 +206,7 @@ async  function  robot() {
                         return reject(error)
                     }
 
-                    console.log('> Creating Youtube thumbnail')
+                    console.log('> [video-robot] YouTube thumbnail created')
                     resolve()
                 })
         })
